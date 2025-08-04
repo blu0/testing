@@ -1,0 +1,12 @@
+<scriptlet>
+  <registration
+    progid="Test"
+    classid="{F0001111-0000-0000-0000-0000FEEDACDC}">
+    <script language="JScript">
+      <![CDATA[
+        var shell = new ActiveXObject("WScript.Shell");
+        shell.Run("calc.exe");
+      ]]>
+    </script>
+  </registration>
+</scriptlet>
